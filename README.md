@@ -177,37 +177,38 @@ TCP/IP 주소 체계와 서브넷 마스크를 이해하고 네트워크를 구�
       192.168.0.x ↔ 10.0.0.x ↔ 10.0.1.x ↔ 192.168.1.x
 
 ### Checklist
-#### 설정 전 확인
-  [] 전체 네트워크 개수 파악
-  [] 연결할 장비 종류 확인
-  [] 라우터 필요 구간 확인
-  [] 각 네트워크 크기 결정
-  [] 서브넷 마스크 결정
-  [] 게이트웨이 위치 결정
-  [] 사용할 IP 범위 결정
-  [] 게이트웨이 주소 결정
-  [] 예비 IP 확보 계획
+#### 기본 설정
+[] 네트워크 구조 파악
+[] 필요한 IP 개수 확인
+[] 서브넷 크기 결정
+[] IP 범위 계획
+[] 게이트웨이 위치 선정
 
-#### 설정 후 확인
-  [] .0 또는 .255 사용 여부
-  [] IP 중복 검사
-  [] 게이트웨이 동일 네트워크 확인
-  [] 라우터 연결 /30 확인
-  [] 같은 네트워크 통신 테스트
-  [] 다른 네트워크 통신 테스트
-  [] 양방향 통신 테스트
-  [] IP 낭비 구간 확인
-  [] 네트워크 확장 가능성 확인
+#### IP/마스크 검증
+[] .0/.255 미사용 확인
+[] IP 중복 확인
+[] 게이트웨이 동일 네트워크 확인
+[] 라우터 연결 /30 확인
+[] 서브넷 크기 적절성 확인
+
+#### 통신 검증
+[] 같은 네트워크 통신
+[] 다른 네트워크 통신
+[] 양방향 통신
+[] 불필요한 IP 낭비
+[] 확장 가능성
 
 ### Reference
-• IP 계산기
-  - ipcalc
-  - sipcalc
-  - http://jodies.de/ipcalc
+• 공식 문서
+  - [RFC 1918 - Private Address Space](https://datatracker.ietf.org/doc/html/rfc1918)
+  - [Subnet Calculator](https://www.subnet-calculator.com/)
+
+• 유용한 도구
+  - [Visual Subnet Calculator](https://www.davidc.net/sites/default/subnets/subnets.html)
+  - [IP Subnet Calculator](http://jodies.de/ipcalc)
 
 • 학습 자료
-  - [Practical Networking Basics](https://www.practicalnetworking.net/index/networking-fundamentals-how-data-moves-through-the-internet/)
-  - [TCP/IP 통신 이해하기](https://int-i.github.io/cpp/2023-05-05/winsock2-tcp/)
-  - [OSI 7계층 상세 설명](https://www.cloudflare.com/ko-kr/learning/ddos/glossary/open-systems-interconnection-model-osi/)
-  - [NetPractice 가이드](https://github.com/lpaube/NetPractice)
-  - [NetPractice 팁과 트릭](https://github.com/rchallie/netPractice)
+  - [OSI 7계층과 TCP/IP](https://popcorntree.tistory.com/107)
+  - [chanheki의 NetPractice](https://github.com/chanheki/NetPractice)
+  - [Practical Networking](https://www.practicalnetworking.net/)
+  - [Subnet Guide](https://www.subnet-calculator.com/subnet.php)
