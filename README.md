@@ -3,7 +3,8 @@
 <div align="center">
   <img src="assets/10_netpractice_review.jpg" alt="NetPractice Review" width="800"/>
   
-  [![42 Score](https://img.shields.io/badge/Score-100%2F100-success?style=for-the-badge&logo=42)](https://github.com/your-username/NetPractice)
+  [![42 Score](https://img.shields.io/badge/Score-100%2F100-success?style=for-the-badge&logo=42)](https://github.com/junyjeon/NetPractice)
+  [![Network](https://img.shields.io/badge/Network-TCP%2FIP-blue.svg?style=for-the-badge&logo=cisco)](https://github.com/junyjeon/NetPractice)
 </div>
 
 ## Table of Contents
