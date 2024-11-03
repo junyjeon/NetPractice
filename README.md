@@ -7,24 +7,24 @@
   [![Network](https://img.shields.io/badge/Network-TCP%2FIP-blue.svg?style=for-the-badge&logo=cisco)](https://github.com/junyjeon/NetPractice)
 </div>
 
-## Table of Contents
-- [About](#about)
-- [Basic Theory](#basic-theory)
+## 목차
+- [개요](#개요)
+- [기본 이론](#기본-이론)
   - [IP Address](#ip-address)
   - [Subnet Mask](#subnet-mask)
   - [Network Layers](#network-layers)
-- [Network Configuration](#network-configuration)
+- [네트워크 구성](#네트워크-구성)
   - [Switch (L2)](#switch-l2)
   - [Router (L3)](#router-l3)
   - [Gateway](#gateway)
-- [Practice Levels](#practice-levels)
+- [연습 레벨](#연습-레벨)
   - [Level 1-3: Basic](#level-1-3-basic)
   - [Level 4-6: Subnet](#level-4-6-subnet)
   - [Level 7-10: Advanced](#level-7-10-advanced)
-- [Checklist](#checklist)
-- [Reference](#reference)
+- [체크리스트](#체크리스트)
+- [참고 자료](#참고-자료)
 
-### 🗣️ About
+### 🗣️ 개요
 TCP/IP 주소 체계와 서브넷 마스크를 이해하고 네트워크를 구성하는 과제입니다.
 스위치(L2)와 라우터(L3)를 사용해 네트워크를 연결하고 통신이 가능하도록 설정합니다.
 
@@ -78,7 +78,7 @@ TCP/IP 주소 체계와 서브넷 마스크를 이해하고 네트워크를 구�
   - 라우터로 연결
   - 다른 네트워크 간 통신
 
-### Network Configuration
+### 네트워크 구성
 #### Switch (L2)
 • 특징
   - MAC 주소 기반 통신
@@ -115,7 +115,7 @@ TCP/IP 주소 체계와 서브넷 마스크를 이해하고 네트워크를 구�
   - 게이트웨이: 192.168.1.254
   - 호스트: 192.168.1.1~253 사용
 
-### Practice Levels
+### 연습 레벨
 #### Level 1-3: Basic
 • Level 1: PC 직접 연결
   - 두 PC를 직접 연결
@@ -177,7 +177,7 @@ TCP/IP 주소 체계와 서브넷 마스크를 이해하고 네트워크를 구�
   예) Client망 ↔ R1 ↔ R2 ↔ Server망
       192.168.0.x ↔ 10.0.0.x ↔ 10.0.1.x ↔ 192.168.1.x
 
-### Checklist
+### 체크리스트
 #### 기본 설정
 [] 네트워크 구조 파악
 [] 필요한 IP 개수 확인
@@ -199,7 +199,7 @@ TCP/IP 주소 체계와 서브넷 마스크를 이해하고 네트워크를 구�
 [] 불필요한 IP 낭비
 [] 확장 가능성
 
-### Reference
+### 참고 자료
 • 공식 문서
   - [RFC 1918 - Private Address Space](https://datatracker.ietf.org/doc/html/rfc1918)
   - [Subnet Calculator](https://www.subnet-calculator.com/)
