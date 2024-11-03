@@ -1,10 +1,18 @@
-# NetPractice
-
 <div align="center">
+  <h1>🌐 NetPractice</h1>
+  <p>TCP/IP 네트워킹 실습 프로젝트</p>
+
   <img src="assets/10_netpractice_review.jpg" alt="NetPractice Review" width="800"/>
   
-  [![42 Score](https://img.shields.io/badge/Score-100%2F100-success?style=for-the-badge&logo=42)](https://github.com/junyjeon/NetPractice)
-  [![Network](https://img.shields.io/badge/Network-TCP%2FIP-blue.svg?style=for-the-badge&logo=cisco)](https://github.com/junyjeon/NetPractice)
+  <div>
+    <img src="https://img.shields.io/badge/Score-100%2F100-success?style=flat-square&logo=42" alt="42 Score"/>
+    <img src="https://img.shields.io/badge/Network-TCP%2FIP-00B4E3?style=flat-square&logo=cisco" alt="Network"/>
+  </div>
+
+  ### 학습 내용
+  - IP 주소 체계와 서브넷 마스크
+  - 라우팅 테이블 설정
+  - 네트워크 토폴로지 구성
 </div>
 
 ## 목차
